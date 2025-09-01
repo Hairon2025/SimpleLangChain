@@ -1,0 +1,28 @@
+# RAG 核心框架
+langchain==0.3.27
+langchain-core==0.3.72
+langchain-community==0.3.27
+langchain-chroma==0.2.5
+langchain-text-splitters==0.3.9
+langgraph==0.6.1
+
+# 向量数据库
+chromadb==1.0.15
+
+# 大模型 & Embedding 接口
+dashscope==1.24.0
+openai==1.68.0  # 可选：如果你未来可能用 OpenAI
+
+# 文档加载依赖
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+requests>=2.31.0
+
+# 嵌入模型支持（本地 Hugging Face 模型可选）
+huggingface-hub==0.34.3
+tokenizers==0.21.4
+tiktoken==0.9.0  # OpenAI tokenizer
+
+# 配置文件解析
+PyYAML==6.0.2
+
